@@ -27,4 +27,4 @@ Terraform will deploy the vpc, subnet, security group, networking and EC2 instan
 
 Clone the ansible role from https://github.com/olacloud/install-kubernetes-ubuntu/ and cd into the directory. Copy the generated inventory file to the directory and run
 
-ansible-playbook -i inventory.yaml install-kubernetes.yaml 
+$ ansible-playbook -i inventory.yaml install-kubernetes.yaml 
